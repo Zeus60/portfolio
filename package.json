@@ -4,11 +4,11 @@
   "description": "personal portfilio",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "sass -w scss/ -o dist/css/ --recursive"
   },
   "author": "Kevin James",
   "license": "MIT",
   "dependencies": {
-    "node-sass": "^5.0.0"
+    "sass": "^1.32.8"
   }
 }
