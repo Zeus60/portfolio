@@ -2,6 +2,7 @@
 @import "abstracts/mixins";
 @import "abstracts/variables";
 @import "layout/menu";
+@import "abstracts/mobile";
 
 body {
   @include background;
@@ -11,7 +12,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 /// HEADINGS ///
