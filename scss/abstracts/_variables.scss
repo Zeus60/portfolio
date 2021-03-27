@@ -4,6 +4,36 @@ $tertiary-color: #439db2;
 
 $show-home-image: true;
 $home-image: url(../img/background.jpg);
-$background-opacity: 0.85;
+$background-opacity: 0.93;
+
+$default-fontsize: 1.5rem;
+
+$mb-small: 2rem;
+$mb-medium: 4rem;
+
+.mb-small {
+  margin-bottom: 2rem;
+}
+.mb-medium {
+  margin-bottom: 4rem;
+}
+
+.mb-large {
+  margin-bottom: 6rem;
+}
+
+.mt-small {
+  margin-bottom: 2rem;
+}
+.mt-medium {
+  margin-bottom: 4rem;
+}
+
+.mt-large {
+  margin-bottom: 6rem;
+}
 
 //$primary-color: rgb(53, 4, 4);
+
+$primary-color: #002839;
+//$primary-color: #000;

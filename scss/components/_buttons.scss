@@ -1,0 +1,28 @@
+.btn {
+  display: block;
+  padding: 0.5rem 1.3rem;
+  border: 0;
+  margin: 0 0 0.5rem 0;
+  align-self: center;
+
+  &:hover {
+    background: $secondary-color;
+    color: set-text-color($secondary-color);
+  }
+}
+.fa-eye,
+.fa-github {
+  margin-right: 0.5rem;
+}
+
+.btn-dark {
+  @extend .btn;
+  background: darken($primary-color, 50);
+  color: #deffe3;
+}
+
+.btn-light {
+  @extend .btn;
+  background: lighten($primary-color, 15);
+  color: #deffe3;
+}
