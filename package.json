@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "personal portfolio",
   "main": "index.js",
-  "homepage": "https//zeus60.github.io/portfolio"
+  "homepage": "https//zeus60.github.io/portfolio",
   "scripts": {
     "compile": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
