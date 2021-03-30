@@ -1,12 +1,17 @@
-$primary-color: #444;
-$secondary-color: #eece1a;
+//$primary-color: #444;
+//$primary-color: rgb(53, 4, 4);
+
+$primary-color: #2f4858;
+//$primary-color: #002839;
+$secondary-color: #d27100;
+$secondary-color-2: #deffe3;
 $tertiary-color: #439db2;
 
 $show-home-image: true;
 $home-image: url(../img/background.jpg);
-$background-opacity: 0.93;
+$background-opacity: 0.95;
 
-$default-fontsize: 1.5rem;
+$default-fontsize: 1.6rem;
 
 $mb-small: 2rem;
 $mb-medium: 4rem;
@@ -32,8 +37,3 @@ $mb-medium: 4rem;
 .mt-large {
   margin-bottom: 6rem;
 }
-
-//$primary-color: rgb(53, 4, 4);
-
-$primary-color: #002839;
-//$primary-color: #000;

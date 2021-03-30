@@ -6,8 +6,10 @@
   align-self: center;
 
   &:hover {
-    background: $secondary-color;
+    font-weight: normal;
+    background: lighten($secondary-color, 20);
     color: set-text-color($secondary-color);
+    @include easeOut;
   }
 }
 .fa-eye,
@@ -17,7 +19,7 @@
 
 .btn-dark {
   @extend .btn;
-  background: darken($primary-color, 50);
+  background: darken($primary-color, 10);
   color: #deffe3;
 }
 
