@@ -276,7 +276,6 @@ main {
     border: 2px solid #deffe3;
     transition: all 0.5s ease-out; }
     .boxes div:hover {
-      padding: 1.25rem 2.25rem;
       background-color: #21323d;
       border-color: #d27100; }
 
