@@ -269,7 +269,7 @@ main {
   margin-top: 1rem; }
   .boxes div {
     font-size: 2rem;
-    text-align: center;
+    align-self: center;
     padding: 0.65rem 1.5rem;
     margin-bottom: 2rem;
     line-height: 1.4;
