@@ -44,6 +44,7 @@ html {
   margin: 0 0 0.5rem 0;
   align-self: center;
 }
+
 .btn:hover,
 .btn-dark:hover,
 .btn-light:hover {
@@ -76,6 +77,7 @@ html {
   cursor: pointer;
   transition: all 0.5s ease-out;
 }
+
 .menu-btn .btn-line {
   width: 2.8rem;
   height: 3px;
@@ -83,15 +85,19 @@ html {
   background: #deffe3;
   transition: all 0.5s ease-out;
 }
+
 .menu-btn.close {
   transform: rotate(180deg);
 }
+
 .menu-btn.close .btn-line:nth-child(1) {
   transform: rotate(45deg) translate(5px, 5px) scale(1.1);
 }
+
 .menu-btn.close .btn-line:nth-child(2) {
   opacity: 0;
 }
+
 .menu-btn.close .btn-line:nth-child(3) {
   transform: rotate(-45deg) translate(6.5px, -6px) scale(1.1);
 }
@@ -103,9 +109,11 @@ html {
   opacity: 0.99;
   visibility: hidden;
 }
+
 .menu.show {
   visibility: visible;
 }
+
 .menu-branding,
 .menu-nav {
   display: flex;
@@ -117,41 +125,50 @@ html {
   height: 100vh;
   overflow: hidden;
 }
+
 .menu-nav {
   background: #283d4b;
   list-style: none;
   transform: translate3d(0, -100%, 0);
   transition: all 0.5s ease-out;
 }
+
 .menu-nav.show {
   transform: translate3d(0, 0, 0);
 }
+
 .menu-branding {
   background: #2f4858;
   transform: translate3d(0, 100%, 0);
   border-right: 5px solid #263a47;
   transition: all 0.5s ease-out;
 }
+
 .menu-branding.show {
   transform: translate3d(0, 0, 0);
 }
+
 .menu-branding .portrait {
   width: 25rem;
   height: 25rem;
-  background: url(../img/portrait.jpg);
+  background: url(../img/panther.jpg);
   border-radius: 50%;
   border: 3px solid #d27100;
 }
+
 .menu .nav-item {
   transform: translate3d(60rem, 0, 0);
   transition: all 0.5s ease-out;
 }
+
 .menu .nav-item.show {
   transform: translate3d(0, 0, 0);
 }
+
 .menu .nav-item.current > a {
   color: #439db2;
 }
+
 .menu .nav-link {
   display: inline-block;
   position: relative;
@@ -163,6 +180,7 @@ html {
   text-decoration: none;
   transition: all 0.5s ease-out;
 }
+
 .menu .nav-link:hover {
   color: #d27100;
 }
@@ -193,11 +211,13 @@ body {
   font-weight: 300;
   line-height: 1.5;
 }
+
 body#bg-img {
   background: url(../img/background.jpg);
   background-attachment: fixed;
   background-size: cover;
 }
+
 body#bg-img:after {
   content: '';
   position: absolute;
@@ -216,12 +236,14 @@ h4 {
   margin: 0;
   font-weight: 300;
 }
+
 h1.lg-heading,
 h2.lg-heading,
 h3.lg-heading,
 h4.lg-heading {
   font-size: 6rem;
 }
+
 h1.sm-heading,
 h2.sm-heading,
 h3.sm-heading,
@@ -249,20 +271,25 @@ main {
   padding: 10rem;
   min-height: calc(100vh - 6rem);
 }
+
 main .icons {
   margin-top: 1rem;
   color: #deffe3;
 }
+
 main .icons a {
   padding: 0.8rem;
   transition: all 0.5s ease-out;
 }
+
 main .icons a:hover {
   color: #ae5e00;
 }
+
 main#home {
   overflow: hidden;
 }
+
 main#home h1 {
   margin-top: 20vh;
 }
@@ -273,6 +300,7 @@ main#home h1 {
   grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
   grid-template-columns: repeat(3, 1fr);
 }
+
 .about-info .bio-image {
   grid-area: bioimage;
   justify-self: center;
@@ -281,36 +309,45 @@ main#home h1 {
   border: 3px solid #d27100;
   margin-bottom: 2rem;
 }
+
 .about-info .bio {
   grid-area: bio;
   align-self: flex-start;
   justify-self: center;
   width: clamp(50ch, 100%, 70ch);
 }
+
 .about-info .bio p {
   font-size: 1.6rem;
 }
+
 .about-info .bio h3 {
   font-size: 2.5rem;
   padding-bottom: 1rem;
 }
+
 .about-info .job {
   background: #263a47;
   padding: 1.5rem 2rem;
   border-bottom: #d27100 2px solid;
 }
+
 .about-info .job h3 {
   margin-bottom: 0.5rem;
 }
+
 .about-info .job h4 {
   margin-bottom: 0.5rem;
 }
+
 .about-info .job-1 {
   grid-area: job1;
 }
+
 .about-info .job-2 {
   grid-area: job2;
 }
+
 .about-info .job-3 {
   grid-area: job3;
 }
@@ -320,11 +357,13 @@ main#home h1 {
   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
   grid-gap: 2rem;
 }
+
 .projects .item img {
   width: 100%;
   border: 3px solid #deffe3;
   transition: all 0.5s ease-out;
 }
+
 .projects .item img:hover {
   opacity: 0.5;
   border-color: #d27100;
@@ -338,6 +377,7 @@ main#home h1 {
   align-items: center;
   margin-top: 1rem;
 }
+
 .boxes div {
   font-size: 2rem;
   justify-self: center;
@@ -347,6 +387,7 @@ main#home h1 {
   border: 2px solid #deffe3;
   transition: all 0.5s ease-out;
 }
+
 .boxes div:hover {
   padding: 1.25rem 2.25rem;
   background-color: #21323d;
@@ -397,7 +438,7 @@ main#home h1 {
     transform: translate3d(-100%, 0, 0);
   }
   main .menu-branding .portrait {
-    background: url(../img/portrait_small.jpg);
+    background: url(../img/panther_small.jpg);
     width: 15rem;
     height: 15rem;
   }
