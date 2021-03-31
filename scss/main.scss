@@ -142,7 +142,6 @@ main {
     img {
       width: 100%;
       border: 3px solid $secondary-color-2;
-
       @include easeOut;
       &:hover {
         opacity: 0.5;
